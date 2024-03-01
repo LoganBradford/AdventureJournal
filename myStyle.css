@@ -1,0 +1,150 @@
+
+  
+  .amita-bold {
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-style: normal;
+  }  
+body {
+    font-family: "Amita", serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color:#4c535d;
+}
+.wrapper-nav{
+    background-color: #865911;
+    border-radius:10px 10px; 
+    padding:20px;
+    height:125px; width:90%;
+    position: fixed;
+    bottom:50px; left:5%;
+   
+}
+.icon{
+    position:absolute;
+    top:101%;
+    left: 45%;
+    Width:170px; height:170px;
+}
+/* I'm using a second image of my home icon to appear when :hover'ed.
+ method: https://sirv.com/help/articles/hover-change-image/ */
+.iconhover{
+    position:absolute;
+    top:101%;
+    left: 45%;
+    Width:170px; height:170px;
+    opacity:0;
+
+}
+.iconhover:hover{
+    position:absolute;
+    top:101%;
+    left: 45%;
+    Width:170px; height:170px;
+    opacity:1;
+
+}
+nav ul{
+    list-style-type:none;
+    white-space: nowrap;
+
+    padding: 0px;
+    text-align:center;
+   }
+   nav ul li{
+    display:inline-block;
+    
+    margin: 10px 3%;
+   }
+   nav ul li a{
+    background-color:lightskyblue;
+    color:black;
+    text-decoration: none;
+    float:left;
+    padding:30px 100px;
+    border: 3px solid #cc4e00;
+    border-radius:10px 10px; 
+
+   }
+   nav ul li a:hover{
+    background-color:#cc4e00;
+    color:yellow;
+    float:left;
+    padding:30px 100px;
+    border: 3px solid lightskyblue;
+    border-radius:10px 10px; 
+
+   }
+.wrapper-table{
+    background-color:#cc4e00;
+    border-radius:10px 10px; 
+    padding:20px;
+    height:65%; width:90%;
+    position:fixed;
+    top: 30px; left: 5%;
+    box-shadow: 0 0 100px black;
+}
+.journal{
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+    Width: 300px; height: 400px;
+}
+.journal:hover{
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+    Width: 300px; height: 400px;
+    box-shadow: 0 0 100px yellow;
+}
+.openjournal{
+    position: absolute;
+    top: 10%;
+    left:35%;
+    Width: 1200px; height: 700px;
+}
+.journalportraits ul li{
+    text-align:left;
+    display: block;
+    margin: 10px 8%;
+}
+.journalportraits h1{
+    position: absolute;
+    top:14%;
+    left:45%;
+    margin: 10px 6%;
+}
+
+.map{
+    position: absolute;
+    bottom: 5%;
+    left:10%;
+    Width: 300px; height: 500px;
+}
+.map:hover{
+    position: absolute;
+    bottom: 5%;
+    left:10%;
+    Width: 300px; height: 500px;
+    box-shadow: 0 0 100px yellow;
+}
+article ul{
+    list-style-type:none;
+    white-space: nowrap;
+    padding: 0px;
+    text-align:center;
+
+}
+article ul li{
+    display:inline-block;
+    margin: 10px 6%;
+    font-size: large;
+    
+}
+article ul li img{
+    height: 150px; width:150px;
+}
+article ul li img:hover{
+    height: 150px; width:150px;
+    box-shadow: 0 0 100px yellow;
+}
