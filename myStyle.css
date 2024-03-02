@@ -22,7 +22,7 @@ body {
 }
 .icon{
     position:absolute;
-    top:101%;
+    top:90%;
     left: 45%;
     Width:170px; height:170px;
 }
@@ -30,7 +30,7 @@ body {
  method: https://sirv.com/help/articles/hover-change-image/ */
 .iconhover{
     position:absolute;
-    top:101%;
+    top:90%;
     left: 45%;
     Width:170px; height:170px;
     opacity:0;
@@ -38,7 +38,7 @@ body {
 }
 .iconhover:hover{
     position:absolute;
-    top:101%;
+    top:90%;
     left: 45%;
     Width:170px; height:170px;
     opacity:1;
@@ -86,24 +86,25 @@ nav ul{
 }
 .journal{
     position: absolute;
-    bottom: 5%;
-    left: 45%;
-    Width: 300px; height: 400px;
+    bottom: 10%;
+    left: 40%;
+    Width: 20%; height: 55%;
 }
 .journal:hover{
     position: absolute;
-    bottom: 5%;
-    left: 45%;
-    Width: 300px; height: 400px;
+    bottom: 10%;
+    left: 40%;
+    Width: 20%; height: 55%;
     box-shadow: 0 0 100px yellow;
 }
 .openjournal{
     position: absolute;
     top: 10%;
     left:35%;
-    Width: 1200px; height: 700px;
+    Width: 60%; height: 75%;
 }
 .journalportraits ul li{
+    height: 150px; width:150px;
     text-align:left;
     display: block;
     margin: 10px 8%;
@@ -114,37 +115,75 @@ nav ul{
     left:45%;
     margin: 10px 6%;
 }
+#textbox{
+    position: absolute;
+    top: 23%;
+    left:42%;
+    Width: 20%; height:50%;
+}
 
 .map{
     position: absolute;
     bottom: 5%;
     left:10%;
-    Width: 300px; height: 500px;
+    Width: 15%; height: 50%;
 }
 .map:hover{
     position: absolute;
     bottom: 5%;
     left:10%;
-    Width: 300px; height: 500px;
+    Width: 15%; height: 50%;
     box-shadow: 0 0 100px yellow;
 }
+.map2{
+    position:absolute;
+    top: 5%; left: 70%;
+    height: 70%;
+
+
+
+}
+.map3{
+    position:absolute;
+    top: 5%; left: 35%;
+    height: 60%;
+
+}
+.map4{
+    position:absolute;
+    top: 5%; left:10%;
+    height: 70%;
+
+}
+.diceroller{
+    position: absolute;
+    background-color:#865911;
+    bottom: 5%;
+    left:70%;
+    Width: 400px; height: 500px;
+    text-align:center;
+    box-shadow: 0 0 20px black;
+    border-radius:10px 10px;
+
+}
+
 article ul{
     list-style-type:none;
     white-space: nowrap;
     padding: 0px;
-    text-align:center;
+    text-align:left;
 
 }
 article ul li{
     display:inline-block;
-    margin: 10px 6%;
+    margin: 10px 5px;
     font-size: large;
     
 }
 article ul li img{
-    height: 150px; width:150px;
+    height: 50px; width:50px;
 }
 article ul li img:hover{
-    height: 150px; width:150px;
+    height: 50px; width:50px;
     box-shadow: 0 0 100px yellow;
 }
